@@ -2,14 +2,15 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: green;
+    background-image: url(images/background.jpg);
+
 }
 
 .container{
     padding: 20px;
     width: 60%;
-    margin: 0 auto;
-    background-color: #4649f07e;
+    margin: 50px auto;
+    background-color: #ffffffc4;
 }
 
 .container h1{
@@ -17,11 +18,11 @@ body{
     font-size: 2.5rem;
     margin: 1rem 0;
     font-style: italic;
-    color: #fff;
+    color: #000000;
 }
 .container p{
     font-size: 1.5rem;
-    color: #fff;
+    color: #000000;
     text-align: center;
     
 }
@@ -35,7 +36,8 @@ form{
 input[type="text"],
 input[type="email"],
 input[type="number"],
-input[type="checkbox"], select{
+textarea,
+select{
     width: 90%;
     margin: 0 auto;
     padding: 1rem;
@@ -43,19 +45,28 @@ input[type="checkbox"], select{
     border: none;
     outline: none;
     background-color: #4649f07e;
-    color: #fff;
+    color: #000000;
     font-size: 1.2rem;
     
 }
+button{
+    padding: 15px 0;
+    font-size: 1.2rem;
+    background-color: #4649f07e;
+    cursor: pointer;
+    border: none;
+    width: 90%;
+    margin: 20px auto;
+}
 
 ::placeholder {
-    color: #fff;
+    color: #000000;
     font-size: 1rem;
   }
 
   form label{
     text-align: left;
     font-size: 1.4rem;
-    color: #fff;
+    color: #000000;
     margin: 1rem 2.5rem;
   }
