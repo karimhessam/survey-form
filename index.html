@@ -31,15 +31,26 @@
           <option value="karim">Karim</option>
           <option value="bilal">Bilal</option>
         </select>
-        <input type="radio" name="gender" id="male" value="male" />
-        <label for="male">Male</label>
-        <input type="radio" name="gender" id="female" value="female" />
-        <label for="female">Female</label>
-
-        <input type="checkbox" value="java" id="java" />
-        <label for="java">Java</label>
-        <input type="checkbox" value="javascript" id="javascript" />
-        <label for="javascript">JavaScript</label>
+        <div class="radio-container">
+          <div class="row">
+            <input type="radio" name="gender" id="male" value="male" />
+            <label for="male">Male</label>
+          </div>
+          <div class="row">
+            <input type="radio" name="gender" id="female" value="female" />
+            <label for="female">Female</label>
+          </div>
+        </div>
+        <div class="checkbox-container">
+          <div class="row">
+            <input type="checkbox" value="java" id="java" />
+            <label for="java">Java</label>
+          </div>
+          <div class="row">
+            <input type="checkbox" value="javascript" id="javascript" />
+            <label for="javascript">JavaScript</label>
+          </div>
+        </div>
         <textarea cols="30" rows="10" placeholder="Comments"></textarea>
         <button id="submit">Submit</button>
       </form>
