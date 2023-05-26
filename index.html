@@ -1,20 +1,48 @@
 <html>
-    <head>
-        <title>Survey Form</title>
-    </head>
-    <body>
-        <h1 id="title">Bilal & Karim Survey Form</h1>
-        <p id="description">This survey form is prepared by Bilal & Karim. Thanks for visiting!</p>
-        <form id="survey-form">
-            <label for="name" id="name-lable">Name</label>
-            <input type="text" id="name" placeholder="ie. Bilal Mubarak Idris">
-            <label for="email" id="email-lable">Email</label>
-            <input type="email" id="email" placeholder="ie. karim.hessam1@gmail.com">
-            <label for="number" id="number-lable">Number</label>
-            <input type="number" id="number" min="20" max="80" placeholder="ie. 33">
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Bilal & Karim Survey Form</h1>
+      <p id="description">
+        This survey form is prepared by Bilal & Karim. Thanks for visiting!
+      </p>
+      <form id="survey-form">
+        <label for="name" id="name-lable">Name</label>
+        <input type="text" id="name" placeholder="ie. Bilal Mubarak Idris" />
+        <label for="email" id="email-lable">Email</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="ie. karim.hessam1@gmail.com"
+        />
+        <label for="number" id="number-lable">Number</label>
+        <input
+          type="number"
+          id="number"
+          min="20"
+          max="80"
+          placeholder="ie. 33"
+        />
+        <label for="dropdown">Select</label>
+        <select id="dropdown">
+          <option value="karim">Karim</option>
+          <option value="bilal">Bilal</option>
+        </select>
+        <input type="radio" name="gender" id="male" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="female">Female</label>
 
-
-
-        </form>
-    </body>
+        <input type="checkbox" value="java" id="java" />
+        <label for="java">Java</label>
+        <input type="checkbox" value="javascript" id="javascript" />
+        <label for="javascript">JavaScript</label>
+        <textarea cols="30" rows="10" placeholder="Comments"></textarea>
+        <button id="submit">Submit</button>
+      </form>
+    </div>
+  </body>
 </html>
